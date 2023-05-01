@@ -6,6 +6,7 @@ import csv
 import timeit
 
 emails = []
+# csv files need to be in the same directory
 for filename in os.listdir("."):
     if filename.endswith(".csv"):
         # print(filename)
